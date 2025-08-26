@@ -73,3 +73,47 @@ width:50px;
 height: auto;
 
 }
+
+header {   /* Estilos do cabeçário */
+height: 120vh; /* Altura do cabeçalho */
+background: url(yoga4.png) center/cover no-repeat; /* Imagem de fundo do cabeçalho */
+display:flex ; /* Usando flexbox para alinhar os itens no centro */
+flex-direction: column; /* Itens em coluna */
+justify-content: center;    /* Centraliza verticalmente */
+align-items: center; /* Centraliza horizontalmente */
+text-align: center ; /* Centraliza o texto */
+}
+
+header h1 { /* Estilos do título principal no cabeçário */
+    font-size: 5rem;
+    font-family: 'Bebas Neue', sans-serif;
+      color: #429b45 ;
+      margin: 0;
+
+}
+
+
+header p { /* Estilos do parágrafo no cabeçário */
+   color: #FFFFFF;
+font-size: 2rem;
+margin: 20px 0 ;
+transition: 0.3s ease;
+  padding: 15px;
+  border-radius: 10px; /* bordas arredondadas */
+  display: inline-block; /* borda ajusta só ao tamanho do texto */
+
+
+}
+
+header p:hover {
+background-color: rgba(0, 0, 0, 0.6);
+transform: translateY(-5px);
+ border: 2px solid rgba(255, 255, 255, 0.3); /* borda branca transparente */
+}
+
+header img { /* Estilos da imagem no cabeçário */
+width: 150px;
+height: auto;
+
+
+}
