@@ -62,3 +62,46 @@ h2 {
 width: 30px;
 height: auto;;
 }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+nav ul li {
+    float: inline-start;
+    display: flex;
+    margin: 30px 20px;
+    margin: 0;
+}
+nav a {
+    text-decoration: none;
+   color: black;
+   background-color: lightseagreen;
+   border-radius: 15px;
+   margin: 10px 5px;
+   padding: 30px 40px;
+   transition: 0.3s ease;
+}
+
+nav a:active {
+    background-color: rgb(6, 107, 138);
+    color: white;
+    transform: scale(0.95);
+}
+
+table {
+border: 4px solid black;
+border-radius: 10px;
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial;
+}
