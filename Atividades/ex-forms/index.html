@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
@@ -47,8 +48,13 @@
                 <label for="repita_senha">Repita a Senha</label>
                 <input type="password" id="repita_senha" name="repita_senha" required minlength="6">
                 <br>
-                <input type="submit">
+                <button type="button" onclick="processaForm()">Ok</button>
             </form>
+        </div>
+        <div id="resultado" style="display: block;">
+            <p>Cadastro não efetuado</p>
+
+
         </div>
     </main>
 </body>
