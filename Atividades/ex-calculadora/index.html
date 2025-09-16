@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="app.js" defer></script>
     <title>Calculadora</title>
 </head>
 <body>
@@ -13,16 +13,19 @@
             <h2>Resultado</h2>
         </div>
         <div id="operadores">
-            <label for="operador1">Operador 1</label>
-            <input type="text" id="operador1" name="operador1" required>
-            <label for="operador2">Operador 2</label>
-            <input type="text" id="operador2" name="operador2" required>
-        </div>
-        <div id="botoes">
-            <button id="somar">Somar</button>
-            <button id="subtrair">Subtrair</button>
-            <button id="multiplicar">Multiplicar</button>
-            <button id="dividir">Dividir</button>
+            <label for="op1">Operador 1</label>
+            <input type="number" id="op1" name="op1" required>
+            <label for="op2">Operador 2</label>
+            <input type="number" id="op2" name="op2" required>
+            <button id="soma" onclick="soma()">Soma</button>
+            <button id="sub" onclick="sub()">Subtrair</button>
+            <button id="mult" onclick="mult()">Multiplicar</button>
+            <button id="divi" onclick="divi()">Dividir</button>
+            <button id="parImpar" onclick="parImpar()">Par ou Ímpar</button>
+            <button id="potencia" onclick="potencia()">op1 ^ op2</button>
+            <button id="potenciaManual" onclick="potenciaManual()">op1 ^ op2 (manual)</button>
+            <button id="fatorial" onclick="fatorial()">op1!</button>
+            
         </div>
     </div>
 </body>
