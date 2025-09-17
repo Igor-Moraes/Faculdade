@@ -13,6 +13,7 @@ function soma() {
     resultado.style.padding = "10px";
     resultado.style.marginTop = "10px";
     resultado.style.backgroundColor = "#f9f9f9";
+    resultado.style.listStyle = "none";
     resultado.style.fontWeight = "bold";
     resultado.style.color = "#10ac3fff";
     resultado.style.fontSize = "20px";
@@ -89,10 +90,11 @@ function parImpar() {
     resultado.innerHTML = "O resultado da divisão é: " + divi;
     resultado.style.display = "block";
     resultado.style.border = "1px solid black";
-    resultado.style.padding = "10px";
-    resultado.style.marginTop = "10px";
+    resultado.style.padding = "16px";
+    resultado.style.marginTop = "20px";
     resultado.style.backgroundColor = "#f9f9f9";
     resultado.style.fontWeight = "bold";
     resultado.style.color = "#d84545";
     resultado.style.fontSize = "20px";
+
 }

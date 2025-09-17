@@ -1,21 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="website1.css">
-    <title>Website 1</title>
+    <script src="website1.js"></script>
+    <title>Projetos</title>
 </head>
+
 <body>
-    <h1>Website 1</h1>
+    <h1>Projetos</h1>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li> <a href="website1.html">Website1</a></li>
+            <li> <a href="website1.html">Projetos</a></li>
             <li> <a href="website2.html">Website2</a></li>
             <li> <a href="website3.html">Website3</a></li>
         </ul>
     </nav>
+    <header>
+        <h2>Descrição dos Projetos</h2>
+        <p>Aqui, você pode ver um pouco dos meus pequenos projetos que estou fazendo enquanto aprendo.</p>
+        <p class="tec">HTML/CSS/JS</p>
+        <img src="arrow.png" alt="uma flecha vermelha apontando para baixo">
+    </header>
+
+    <section class="calculadora">
+        <div id="descricao">
+            <h2>Calculadora</h2>
+            <p>Uma calculadora simples feita com HTML, CSS e JavaScript. Ela realiza operações básicas como soma, subtração,
+                multiplicação e divisão, além de outras funcionalidades como verificar se um número é par ou ímpar, calcular
+                potências e fatoriais.</p>
+        </div>
+        <div id="calculadora">
+            <div id="resultado">
+                <h2>Resultado</h2>
+            </div>
+            <div id="operadores">
+                <label for="op1">Operador 1</label>
+                <input type="number" id="op1" name="op1" required>
+                <label for="op2">Operador 2</label>
+                <input type="number" id="op2" name="op2" required>
+                <button id="soma" onclick="soma()">Soma</button>
+                <button id="sub" onclick="sub()">Subtrair</button>
+                <button id="mult" onclick="mult()">Multiplicar</button>
+                <button id="divi" onclick="divi()">Dividir</button>
+
+            </div>
+        </div>
+
+    </section>
+    <section id="conteudoSite">
+        
+        <section class="site">
+            <h2>Site </h2>
+            <p>Estou desenvolvendo com meu grupo, por meio da faculdade, um site com tema de uma academia fitness moderna, apreciem o progresso</p>
+            <p>Aqui está o link do code pages se quiser ver por completo: <a href="https://igor-moraes.github.io/Projeto-Academia-Fitness/" target="_blank" rel="external">Complexo Maromba</a></p>
+            <p>Obs: ainda está em desenvolvimento, então pode haver bugs e mal funcionamento. </p>
+                &copy; 2025 - Igor Moraes;
+        </section>
+        <section class="sobreSite">
+            <h2>Sobre o Projeto do site</h2>
+            <p>Este projeto é uma demostração do conhecimento aprendido de todo o grupo durante o desenvolvimento do site. Estamos aprendendo enquanto estamos fazendo o site e acrescentando sempre novas funcionalidades e design.</p>
+            <p>O site é responsivo, ou seja, se adapta a qualquer tamanho de tela, seja celular, tablet ou computador.</p>
+            <p>O site é feito com HTML, CSS e JavaScript, e está hospedado no GitHub Pages.</p>
+            <p>a equipe do site envolve Igor Moraes, Marllon de Oliveira, Leandro Evangelista e Rodrigo Pereira.</p>
+        </section>
+        <article class="imgSite">
+            <img src="site1.png" alt="print do site">
+            <img src="site2.png" alt="print do site">
+            <img src="site3.png" alt="print do site">
+        </article>
+    </section>
+
 </body>
+
 </html>
