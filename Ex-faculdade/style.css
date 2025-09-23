@@ -1,0 +1,51 @@
+body {
+    background-color: lightblue;
+    font-family: monospace;
+    color: rgb(179, 192, 1) ;
+}
+
+
+header {
+    background-color: rgb(24, 16, 16);
+    display: flex;
+    justify-content: inline;
+    padding: 20px;
+    font-size: 30px;
+    border: solid 2px rgb(66, 60, 60)  ;
+    padding: 8vh;
+    
+
+}
+
+header img {
+width: 30vh;
+height: auto;
+border-radius:20vh;
+margin: 0 10vh 0 0;
+}
+
+nav {
+background-color:rgb(66, 60, 60);
+padding:  3vh;
+font-size: 16px;
+border: solid 2px rgb(24, 16, 16);;
+}
+
+nav a {
+    color: rgb(179, 192, 1);
+    text-decoration: none;
+    margin: 0 15px;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+}
+
+nav ul li {
+    margin:0 8.8vh;
+
+
+}

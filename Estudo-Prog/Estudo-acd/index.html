@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ Academia Fitness</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0D0D0D;
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .faq-container {
+      max-width: 700px;
+      margin: 40px auto;
+    }
+
+    .faq-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #E50914;
+    }
+
+    .faq-item {
+      background: #1a1a1a;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+
+    .faq-question {
+      background: #E50914;
+      padding: 15px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      padding: 0 15px;
+    }
+
+    .faq-answer p {
+      margin: 10px 0;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 400px;
+      padding: 15px;
+    }
+
+    .icon {
+      font-size: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .faq-item.active .icon {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+<body>
+  <div class="faq-container">
+    <h2>❓ Perguntas Frequentes - Academia Fitness</h2>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>A aula experimental é gratuita?</span>
+        <span class="icon">➕</span>
+      </div>
+      <div class="faq-answer">
+        <p>Sim! A primeira aula é totalmente gratuita para que você possa conhecer nossa academia, os professores e os treinos antes de decidir se quer se matricular.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Quais planos estão disponíveis?</span>
+        <span class="icon">➕</span>
+      </div>
+      <div class="faq-answer">
+        <p>Temos planos mensais, trimestrais e anuais. Quanto maior o período, maior o desconto. Também oferecemos pacotes especiais para treinos funcionais e musculação combinados.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Preciso marcar horário para treinar?</span>
+        <span class="icon">➕</span>
+      </div>
+      <div class="faq-answer">
+        <p>Não é necessário agendamento para a musculação, você pode vir dentro do horário de funcionamento. Para aulas coletivas como funcional, spinning e dança, recomendamos reservar vaga com antecedência.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Vocês oferecem acompanhamento nutricional?</span>
+        <span class="icon">➕</span>
+      </div>
+      <div class="faq-answer">
+        <p>Sim! Temos parceria com nutricionistas especializados em performance esportiva e emagrecimento, disponíveis para consultas agendadas.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Qual é o horário de funcionamento?</span>
+        <span class="icon">➕</span>
+      </div>
+      <div class="faq-answer">
+        <p>Estamos abertos de segunda a sexta das 6h às 23h, sábados das 8h às 18h e domingos das 9h às 14h.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Há estacionamento disponível?</span>
+        <span class="icon">➕</span>
+      </div>
+      <div class="faq-answer">
+        <p>Sim! Nossa academia conta com estacionamento gratuito e seguro para todos os alunos.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const items = document.querySelectorAll(".faq-item");
+
+    items.forEach(item => {
+      const question = item.querySelector(".faq-question");
+      const icon = item.querySelector(".icon");
+
+      question.addEventListener("click", () => {
+        item.classList.toggle("active");
+        icon.textContent = item.classList.contains("active") ? "➖" : "➕";
+      });
+    });
+  </script>
+</body>
+</html>

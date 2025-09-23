@@ -78,23 +78,4 @@ function divi() {
     resultado.style.fontSize = "20px";
 }
 
-function parImpar() {
-    var op1 = document.getElementById("op1").value;
-    var op2 = document.getElementById("op2").value;
-    var op1Number = parseInt(op1);
-    var op2Number = parseInt(op2);
-    var divi = op1Number / op2Number;
-    console.log(divi);
-
-    var resultado = document.getElementById("resultado");
-    resultado.innerHTML = "O resultado da divisão é: " + divi;
-    resultado.style.display = "block";
-    resultado.style.border = "1px solid black";
-    resultado.style.padding = "16px";
-    resultado.style.marginTop = "20px";
-    resultado.style.backgroundColor = "#f9f9f9";
-    resultado.style.fontWeight = "bold";
-    resultado.style.color = "#d84545";
-    resultado.style.fontSize = "20px";
-
-}
+f
