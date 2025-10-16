@@ -137,3 +137,33 @@ header a:hover {
     transform: scale(1.05);
 
 }
+
+caption {
+font-size: 2em;
+font-family: Arial;
+color: rgb(0, 0, 0);
+margin: 10px 20px 10px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+th {
+    background: linear-gradient(to right, lightseagreen, rgb(19, 191, 221));
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+}
+
+ tr:nth-child(even) {
+  background-color: #9b9b9b;
+}
+
+tr:hover {
+  background-color: rgba(0, 152, 212, 0.5);
+  transition: background 0.3s ease;
+}

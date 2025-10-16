@@ -1,0 +1,29 @@
+ul {
+    list-style: circle;
+}
+
+  table {
+    width: 80%;
+    border-collapse: collapse; /* remove espaços entre as bordas */
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    text-align: left;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+  }
+
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:hover {
+    background-color: #ddd;
+  }
