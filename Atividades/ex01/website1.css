@@ -1,4 +1,3 @@
-
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -13,17 +12,18 @@ nav ul li {
     margin: 30px 20px;
     margin: 0;
 }
+
 nav a {
     text-decoration: none;
-   color: black;
-   background-color: lightseagreen;
-   border-radius: 15px;
-   margin: 10px 5px 30px 5px;
-   padding: 15px 50px;
-   transition: 0.1s ease;
-   border: 2px solid black;
-   border-bottom: 5px solid black;
-   font-family: Arial;
+    color: black;
+    background-color: lightseagreen;
+    border-radius: 15px;
+    margin: 10px 5px 30px 5px;
+    padding: 15px 50px;
+    transition: 0.1s ease;
+    border: 2px solid black;
+    border-bottom: 5px solid black;
+    font-family: Arial;
 }
 
 nav a:active {
@@ -31,10 +31,12 @@ nav a:active {
     color: white;
     transform: scale(0.95);
 }
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: lightcyan;
+    padding: 0;
 }
 
 header {
@@ -63,7 +65,7 @@ header p {
     margin-top: 10px;
 }
 
- h1 {
+h1 {
     font-family: Arial;
     border-left: 4px solid rgb(58, 47, 47);
     padding: 10px;
@@ -71,12 +73,12 @@ header p {
 }
 
 .tec {
-border: 2px solid black; 
-width: fit-content;
-border-radius: 10px;
-padding: 10px;
-margin: auto;
-transition: background-color 0.2s, color 0.2s, transform 0.2s;
+    border: 2px solid black;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    transition: background-color 0.2s, color 0.2s, transform 0.2s;
 }
 
 .tec:hover {
@@ -93,6 +95,7 @@ header img {
     margin-top: 10px;
     align-self: center;
 }
+
 header img:hover {
     margin: 30px;
     transform: scale(1.5);
@@ -100,58 +103,58 @@ header img:hover {
 }
 
 #calculadora {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  gap: 24px;
-  max-width: 340px;
-  margin: 40px auto;
-  background: #45d8a0;
-  padding: 32px 24px;
-  border-radius: 12px;
-  box-shadow: 0 2px 16px #0008;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+    max-width: 340px;
+    margin: 40px auto;
+    background: #45d8a0;
+    padding: 32px 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px #0008;
 }
 
 #resultado {
-  background: #c9888866;
-  border-radius: 8px;
-  padding: 16px;
-  margin-bottom: 8px;
+    background: #c9888866;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 8px;
 }
 
 #operadores {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 #operadores label {
-  margin-bottom: 2px;
-  font-weight: bold;
+    margin-bottom: 2px;
+    font-weight: bold;
 }
 
 #operadores input {
-  padding: 6px;
-  border-radius: 4px;
-  border: 1px solid #1f0b0b;
-  background-color: rgb(85, 80, 80);
-  margin-bottom: 8px;
-  color: #ffe0e0;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #1f0b0b;
+    background-color: rgb(85, 80, 80);
+    margin-bottom: 8px;
+    color: #ffe0e0;
 }
 
 #operadores button {
-  padding: 10px;
-  border: none;
-  border-radius: 6px;
-  background-color: rgb(85, 80, 80);
-  color: #7cd11b;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.2s;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(85, 80, 80);
+    color: #7cd11b;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
 }
 
 #operadores button:hover {
-  background: #ffe0e0;
+    background: #ffe0e0;
 }
 
 .calculadora h2 {
@@ -173,56 +176,101 @@ header img:hover {
 
 }
 
-    .site {
-        background-color: #45d8a0;
-        justify-content: flex-start;
-        padding: 20px;
-        width: 93.4vh;
-        display: flex;
-        flex-direction: column;
-        border: 2px solid #1f0b0b;
-        margin-left: 0;
-        border-bottom: 0;
-        border-left: 0;
-        font-size: 1.3em;
-    
-    }
-    
-    .sobreSite {
-background-color: #45d8a0;
-padding: 20px;
-justify-content: flex-start;
-display: flex;
-width: 93.4vh;
-flex-direction: column;
-border: 2px solid #1f0b0b;
-margin-left: 0;
-border-left: 0 ;
-font-size: 1.3em;
-    }
+.site {
+    background-color: #45d8a0;
+    justify-content: flex-start;
+    padding: 20px;
+    width: 93.4vh;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #1f0b0b;
+    margin-left: 0;
+    border-bottom: 0;
+    border-left: 0;
+    font-size: 1.3em;
+
+}
+
+.sobreSite {
+    background-color: #45d8a0;
+    padding: 20px;
+    justify-content: flex-start;
+    display: flex;
+    width: 93.4vh;
+    flex-direction: column;
+    border: 2px solid #1f0b0b;
+    margin-left: 0;
+    border-left: 0;
+    font-size: 1.3em;
+}
 
 .imgSite {
-padding: 20px;
-width: 104.vh;
-height: auto;
-justify-content: right;
-text-align: right;
-align-items: right;
-align-self: right;
-margin-left: 100vh;
-margin-top: -153.5vh;
-background-color: #45d8a0;
-border: 2px solid #1f0b0b;
-height: 146.6vh;
-border-right: 0;
-border-left: 0;
+    padding: 20px;
+    width: 104.vh;
+    height: auto;
+    justify-content: right;
+    text-align: right;
+    align-items: right;
+    align-self: right;
+    margin-left: 100vh;
+    margin-top: -153.5vh;
+    background-color: #45d8a0;
+    border: 2px solid #1f0b0b;
+    height: 146.6vh;
+    border-right: 0;
+    border-left: 0;
 }
 
 .imgSite img {
-width: 98%; 
-height: auto;
-box-shadow: 2px 2px 12px #0002;
-margin: 10px;
-display: flex;
+    width: 98%;
+    height: auto;
+    box-shadow: 2px 2px 12px #0002;
+    margin: 10px;
+    display: flex;
 
+}
+
+.mps {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(59, 199, 255);
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.mps h2 {
+    color: black;
+    font-size: 2em;
+    border: 2px solid black;
+    margin: -10px -10px 10px -10px;
+    padding: 20px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    background: inherit;
+    border-radius: 20px 20px 0 0;
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+
+.mps p {
+    font-size: 1.2em;
+    color: rgb(7, 20, 20);
+    line-height: 1.6;
+    text-align: justify;
+    margin: 10px;
+}
+
+.mps img {
+    width: 30%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px #0002;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }

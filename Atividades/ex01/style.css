@@ -57,7 +57,7 @@ h2 {
 }
 
 .card a:active {
-    background-color: rgb(6, 107, 138);
+    background-color: rgb(24, 156, 196);
     color: white;
     transition: 0.3s ease;
 }
