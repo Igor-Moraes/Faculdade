@@ -167,3 +167,61 @@ tr:hover {
   background-color: rgba(0, 152, 212, 0.5);
   transition: background 0.3s ease;
 }
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(19, 172, 172), rgb(173, 216, 230));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+#formulario input, #formulario textarea {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-bottom: 4px solid black;
+    height: 40px;
+}
+
+#formulario button {
+    width: 150px;
+    padding: 10px 20px;
+    margin: 20px auto 0 auto;
+    background-color: rgb(32, 178, 170);
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: large;
+    font-family: Arial;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+#formulario button:hover {
+    background-color: rgb(24, 156, 196);
+    color: white;
+    transform: scale(1.05);
+}
+
+#formulario h2 {
+    text-align: center;
+    font-family: Arial;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 2em;
+}
+
+#formulario img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px auto;
+}

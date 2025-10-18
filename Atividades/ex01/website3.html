@@ -4,18 +4,30 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website 3</title>
+    <title>Formulário de Contato</title>
     <link rel="stylesheet" href="style.css">
+    <script src="website1.js"></script>
 </head>
 <body>
-    <h1>Website 3</h1>
+    <h1>Formulário de Contato</h1>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li> <a href="website1.html">Projetos</a></li>
             <li> <a href="website2.html">Atividade Extra</a></li>
-            <li> <a href="website3.html">Website3</a></li>
+            <li> <a href="website3.html">Formulário</a></li>
         </ul>
     </nav>
+    <section>
+        <form  id="formulario" action="#" method="get" onsubmit="abrirWhatsapp()">
+            <h2> <img src="img.jpg" alt="Minha imagem">Entre em Contato</h2>
+            <input type="text" id="nome" placeholder="Seu nome" required>
+            <input type="text" id="sobrenome" placeholder="Seu Sobrenome">
+            <input type="date" id="data" required>
+            <input type="email" id="email" placeholder="Seu e-mail" required>
+            <textarea id="mensagem" placeholder="Sua mensagem"></textarea>
+            <button type="submit">Enviar para WhatsApp</button>
+        </form>
+    </section>
 </body>
 </html>
